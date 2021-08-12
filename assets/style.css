@@ -1,0 +1,81 @@
+html{
+  background-color: rgb(66, 65, 65);
+  height:130%;
+}
+h1{
+  text-align: center;
+  font-size: 100px;
+}
+.title{
+color:#f0f8ff;
+padding: 4%;
+width: 92%;
+border: 10px;
+border-color: black;
+background-color: rgb(120, 120, 122);
+background-image: linear-gradient(to right, rgb(61, 61, 61) , rgb(148, 148, 144));
+
+
+}
+
+.me{
+  flex-direction: column;
+  justify-content: center;
+  
+
+width: 100%;
+display: flex;
+color:#f0f8ff;
+margin-top: 40px;
+text-align:center;
+
+}
+.meTitle{
+  
+  text-align:center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.meBody{
+
+  text-align:center;
+  width: 30%;
+  margin-left: 35%;
+
+}
+
+.projects{
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.works{
+  margin-bottom: 30px;
+  color:burlywood;
+  text-align:center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.description{
+  font-size: 15px;
+  display: flexbox;
+  flex-wrap: wrap;
+  width: 400px;
+
+
+}
+
+.info{
+  display:flexbox;
+  flex-flow: wrap;
+}
+footer {
+  position: fixed;
+  
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 10%;
+  /* Height of the footer*/ 
+  height: 80px;
+  background: grey;
+}
